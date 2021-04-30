@@ -916,6 +916,12 @@ console.log(app.$refs.hello)
   })
   ```
 
+#### 11. component
+
+动态组件
+
+[Vue组件component标签的使用 - 小玲慕斯 - 博客园 (cnblogs.com)](https://www.cnblogs.com/yjiangling/p/12794933.html)
+
 ### 四. Vue cli
 
 [介绍 | Vue CLI (vuejs.org)](https://cli.vuejs.org/zh/guide/)
