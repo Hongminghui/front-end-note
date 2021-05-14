@@ -1,6 +1,6 @@
 ## Jsx语法
 
-使用jsx，就要导入React
+使用jsx，就要导入React，jsx是React.createElement()的语法糖
 
 ### 1. 注释
 
@@ -130,7 +130,7 @@ class App extends React.Component {
             <div className={"box title " + (active ? "active": "")}>我也是div元素</div>
             <label htmlFor=""></label>
 
-            {/* 3.绑定style */}
+            {/* 3.绑定style,第二个大括号表示是一个对象 */}
             <div style={{color: "red", fontSize: "50px"}}>我是div,绑定style属性</div>
           </div>
         )
