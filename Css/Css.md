@@ -312,6 +312,16 @@ a:visited{
     注意：在开发中这个玩意一定要慎用！
 ```
 
+#### 10. 多个选择器
+
+```css
+/* 两个选择器没断开,代表一个元素有.tab-item.active两个类; 
+   断开了,表示.tab-item中.active的后代元素 */
+.tab-item.active {
+  color: red;
+}
+```
+
 ### 三. 盒模型
 
 #### 1. 块级盒子、内联盒子
@@ -487,9 +497,9 @@ border-spacing:0，表格边框距离，只在border-collapse:seperate时生效
 * 父子元素
 
   	加上边框或者内边距
-	
+		
   	父元素加上after伪类
-	
+		
   	父元素开启BFC
 
 ##### 5）内边距

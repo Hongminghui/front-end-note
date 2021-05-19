@@ -658,6 +658,8 @@ export default withRouter(App);
 
 pages > about.js
 
+子路由的路径通过props.route获取
+
 还有另一个API matchRoutes()
 
 ```jsx
