@@ -658,7 +658,7 @@ export default withRouter(App);
 
 pages > about.js
 
-子路由的路径通过props.route获取
+子路由的路径通过props.route获取，props.route会获取当前路径的所有子路径
 
 还有另一个API matchRoutes()
 

@@ -259,7 +259,7 @@ const initialState = {
 - 创建store时必须创建reducer；
 - 我们可以通过 `store.getState` 来获取当前的state
 
-```
+```js
 // 创建reducer
 const reducer = (state = initialState, action) => {
   return state;
